@@ -60,6 +60,8 @@ catalog {
         version("passay", "1.6.1")
         version("webjars-locator", "0.40")
 
+        version("flyway-core", "7.11.3")
+
 
         alias("kotlin-stdlib").to("org.jetbrains.kotlin", "kotlin-stdlib").versionRef("kotlin")
         alias("kotlin-reflect").to("org.jetbrains.kotlin", "kotlin-reflect").versionRef("kotlin")
@@ -125,6 +127,8 @@ catalog {
         alias("passay").to("org.passay", "passay").versionRef("passay")
 
         alias("webjars-locator").to("org.webjars", "webjars-locator").versionRef("webjars-locator")
+
+        alias("flyway-core").to("org.flywaydb", "flyway-core").versionRef("flyway-core")
 
         alias("jfairy").to("com.devskiller", "jfairy").versionRef("jfairy")
 
